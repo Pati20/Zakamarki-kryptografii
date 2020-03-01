@@ -1,0 +1,30 @@
+section {
+   font-family: monospace;
+   font-size: 14px;
+:root {
+   --background-color: #18121e;
+   --secondary-color: #eac67a;
+}
+
+html {
+   width: 100%;
+}
+
+body {
+   font-family: "EB Garamond", serif;
+   margin: 0;
+   padding-inline: 50px;
+   height: 100%;
+   width: 100%;
+   scroll-behavior: smooth;
+   display: flex;
+   flex-direction: column;
+   background-color: var(--background-color);
+   color: white;
+   justify-content: center;
+   align-items: center;
+   /* font-size: 18px; */
+   text-align: justify;
+}
+
+}
